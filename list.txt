@@ -19,3 +19,4 @@ max-non-cons.py
 edit-dist.py
 coin-change.py
 max-cut.py
+sudoku.py
