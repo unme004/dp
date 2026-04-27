@@ -1,0 +1,21 @@
+Input n (number of vertices)
+Input adjacency matrix dist[n][n]
+
+Initialize:
+    For i = 1 to n:
+        For j = 1 to n:
+            If i == j:
+                dist[i][j] = 0
+            Else if no edge:
+                dist[i][j] = ∞
+
+For k = 1 to n:
+    For i = 1 to n:
+        For j = 1 to n:
+            If dist[i][k] + dist[k][j] < dist[i][j]:
+                dist[i][j] = dist[i][k] + dist[k][j]
+
+Output dist matrix
+
+Time Complexity : O(n^3)
+Space Complexity : O(n^2)
