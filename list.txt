@@ -18,3 +18,4 @@ inc-sum.py
 max-non-cons.py
 edit-dist.py
 coin-change.py
+max-cut.py
