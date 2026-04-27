@@ -24,3 +24,4 @@ subset-sum.py
 coloring.py
 m-coloring.py
 chain-mult-sudo.txt
+graph-coloring.py
