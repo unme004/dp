@@ -20,3 +20,6 @@ edit-dist.py
 coin-change.py
 max-cut.py
 sudoku.py
+subset-sum.py
+coloring.py
+m-coloring.py
